@@ -2,13 +2,13 @@
 
 body {
     margin: 10%;
-    color: lime;
+    color: rgb(214, 235, 214);
     font-family: 'Courier New', Courier, monospace;
     font-weight: bolder;
     line-height: 130%;
     background-color: black;
     border-style: dashed;
-    border-color: lime;
+    border-color: rgb(214, 235, 214);;
     border-radius: 2%;
 
 }
@@ -53,7 +53,7 @@ li {
     font-size: xx-large;
     margin-top: 1%; 
     margin-bottom: 3%;
-    color: lime;
+    color: rgb(214, 235, 214);
     font-family: 'Courier New', Courier, monospace;
     line-height: 130%;
     font-weight: bolder;
