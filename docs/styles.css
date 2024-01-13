@@ -1,0 +1,64 @@
+
+
+body {
+    margin: 10%;
+    color: lime;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    line-height: 130%;
+    background-color: black;
+    border-style: dashed;
+    border-color: lime;
+    border-radius: 2%;
+
+}
+
+li {
+    margin: 1%;
+    list-style: none;
+}
+
+.heading {
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.bolder {
+    font-weight: bolder;
+}
+
+.role {
+    font-weight: bolder;
+    margin-bottom: 1%;
+    text-decoration: underline;
+    text-decoration-thickness: 1px ;
+}
+
+.responsibilities {
+    margin: 2%;
+}
+
+
+#root {
+    display: flex;
+    flex-direction: column;
+    border-radius: 3%;
+    border-color: lime;
+    /* background-color: rgb(0, 153, 13); */
+    padding: 4%;
+
+}
+
+#title {
+    font-size: xx-large;
+    margin-top: 1%; 
+    margin-bottom: 3%;
+    color: lime;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 130%;
+    font-weight: bolder;
+}
+
+.last-element {
+    padding-bottom: 5%;
+}
