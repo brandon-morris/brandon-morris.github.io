@@ -45,6 +45,9 @@ li {
 .bolder {
     font-weight: bolder;
 }
+.larger {
+    font-size: larger;
+}
 
 .role {
     font-weight: bolder;

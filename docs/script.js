@@ -1,11 +1,15 @@
 let resume = document.getElementById("resume");
 let home = document.getElementById("home");
+let contact = document.getElementById("contact");
+let library = document.getElementById("library");
 //TODO: add resource_lib and contact.
 init();
 
 function init() {
   home.style.display = "flex";
   resume.style.display = "none";
+  contact.style.display = "none";
+  library.style.display = "none";
 }
 
 function closeButtonOnClickHandler() {
@@ -18,6 +22,8 @@ function navOnClickHandler(value) {
 
   resume.style.display = "none";
   home.style.display = "none";
+  contact.style.display = "none";
+  library.style.display = "none";
   selectedElement.style.display = "flex"; //all buckets should use flex.
 }
 
