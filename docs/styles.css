@@ -15,7 +15,7 @@ body {
 }
 
 .bucket { /* tired of using the word: "container" but "vessel" felt weird.  */ 
-    display: flex;
+    display: none; /* load this later with JS to make one visible only */ 
     flex-direction: column;
     border-radius: 3%;
     padding: 4%;
@@ -23,6 +23,7 @@ body {
     border-color: lime;
     border-radius: 2%; 
     margin: 10%;
+    background-color: rgb(0, 51, 0);
 }
 li {
     margin: 1%;
@@ -34,6 +35,13 @@ li {
     font-weight: bolder;
 }
 
+.home-heading {
+    font-size: x-large;
+    font-weight: bold;
+}
+.home-content {
+    font-size: large;
+}
 .bolder {
     font-weight: bolder;
 }
@@ -77,7 +85,7 @@ li {
     border-radius: 5%;
 }
 
-#title {
+.title {
     font-size: xx-large;
     margin-top: 1%; 
     margin-bottom: 3%;
@@ -146,10 +154,28 @@ li {
     overflow: hidden; 
     background-color: black;
 }
-li {
+.resume-li {
     float: left; 
     display: block;
     color:  rgb(214, 235, 214);
-    background-color: black;
+    
 
+}
+.home-li {
+    float: left;
+    display: block;
+}
+
+
+#p{
+    color: lime; 
+    float: inline-end;
+    font-size: large;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 2%; 
+    text-decoration: none;
+}
+a {
+    color: rgb(255, 0, 255);
 }
