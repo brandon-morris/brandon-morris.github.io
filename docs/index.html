@@ -7,7 +7,48 @@
     <title>Brandon Morris</title>
   </head>
   <body>
-    <div id="root">
+    <div id="top-nav">
+      <button
+        id="nav-home"
+        class="nav-btn"
+        value="home"
+        onclick="navOnClickHandler(this.value)"
+      >
+        /home_
+      </button>
+      <button
+        id="nav-resume"
+        class="nav-btn"
+        onclick="navOnClickHandler(this.value)"
+        value="resume"
+      >
+        /resume_
+      </button>
+      <button
+        id="nav-library"
+        class="nav-btn"
+        onclick="navOnClickHandler(this.value)"
+        value="lib"
+      >
+        /resource_lib_
+      </button>
+      <button
+        id="nav-contact"
+        class="nav-btn"
+        onclick="navOnClickHandler(this.value)"
+        value="contact"
+      >
+        /contact_
+      </button>
+      <!-- <div id="news-scroller">
+        News |
+        <div id="news-console">news can scroll in here</div>
+      </div> -->
+    </div>
+    <div id="home" class="bucket"></div>
+
+    <div id="resume" class="bucket">
+      <button id="close-button" onclick="closeButtonOnClickHandler()">x</button>
       <div id="title">Brandon Morris</div>
       <div class="heading">Experience</div>
 
