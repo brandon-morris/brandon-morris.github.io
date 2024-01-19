@@ -19,18 +19,12 @@ function closeButtonOnClickHandler() {
 
 function navOnClickHandler(value) {
   let selectedElement = document.getElementById(value);
-  if (value == "resume") {
-    resume.style.display = "block";
-    home.style.display = "none";
-    contact.style.display = "none";
-    library.style.display = "none";
-  } else {
-    resume.style.display = "none";
-    home.style.display = "none";
-    contact.style.display = "none";
-    library.style.display = "none";
-    selectedElement.style.display = "flex"; //all buckets should use flex.
-  }
+
+  resume.style.display = "none";
+  home.style.display = "none";
+  contact.style.display = "none";
+  library.style.display = "none";
+  selectedElement.style.display = "flex"; //all buckets should use flex.
 }
 
 // function pi(){
