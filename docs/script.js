@@ -6,8 +6,8 @@ let library = document.getElementById("library");
 init();
 
 function init() {
-  home.style.display = "flex";
-  resume.style.display = "none";
+  home.style.display = "none";
+  resume.style.display = "flex";
   contact.style.display = "none";
   library.style.display = "none";
 }
