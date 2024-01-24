@@ -2,12 +2,13 @@ let resume = document.getElementById("resume");
 let home = document.getElementById("home");
 let contact = document.getElementById("contact");
 let library = document.getElementById("library");
-//TODO: add resource_lib and contact.
+let altResume = document.getElementById("altResume");
+
 init();
 
 function init() {
-  home.style.display = "none";
-  resume.style.display = "flex";
+  home.style.display = "flex";
+  resume.style.display = "none";
   contact.style.display = "none";
   library.style.display = "none";
 }
@@ -19,6 +20,8 @@ function closeButtonOnClickHandler() {
 
 function navOnClickHandler(value) {
   let selectedElement = document.getElementById(value);
+  if (value == "resume" && window.screen.availWidth < 900) {
+  }
 
   resume.style.display = "none";
   home.style.display = "none";

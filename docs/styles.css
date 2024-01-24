@@ -62,15 +62,17 @@ li {
 
 
 #resume {
-    height: 90vh;
+    /* height: 90vh;
     width: 90vw;
     padding: 2%;
     margin: 1%;
     border-style: dashed;
     border-color: lime;
-    border-radius: 2%; 
+    border-radius: 2%;  Temporarily disabling these. */ 
 }
+.altResume {
 
+}
 #close-button {
     all: initial;
     height: 27px;
